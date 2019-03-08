@@ -3,6 +3,8 @@
 This repo is a code-along with the first project in the [React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
 
 Most of the commits in this repository correspond to videos in the program.
+Example https://tylermcginnis.com/projects/redux-twitter/
+Mockups Tools: https://codingsans.com/blog/mockup-tools
 
 ## Project Setup
 
