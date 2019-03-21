@@ -1,3 +1,5 @@
+//Setting data TO emulate databsase
+
 let users = {
   sarah_edo: {
     id: "sarah_edo",
