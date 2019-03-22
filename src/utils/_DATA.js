@@ -238,6 +238,7 @@ function generateUID () {
   return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)
 }
 
+// Giving format for the tweets
 function formatTweet ({ author, text, replyingTo = null }) {
   return {
     author,
@@ -250,6 +251,8 @@ function formatTweet ({ author, text, replyingTo = null }) {
   }
 }
 
+
+// Saving Tweets
 export function _saveTweet ({ text, author, replyingTo }) {
   return new Promise((res, rej) => {
     const formattedTweet = formatTweet({
