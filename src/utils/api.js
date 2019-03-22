@@ -7,6 +7,8 @@ import {
   _saveTweet,
 } from './_DATA.js'
 
+//USING api promise to bring all users and Tweets
+
 export function getInitialData () {
   return Promise.all([
     _getUsers(),
