@@ -5,7 +5,7 @@ const logger = (store) => (next) => (action)=> {
 	console.log('The action:', action)
 	const returnValue = next(action)
 
-	console.log('The New state:', store.getstate())
+	//console.log('The New state:', store.getstate())
 
 	console.groupEnd()
 	return returnValue
